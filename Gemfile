@@ -8,6 +8,8 @@ gem 'rails_12factor'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 
+gem "heroku_hatchet"
+gem 'puma-heroku'
 gem 'puma'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
