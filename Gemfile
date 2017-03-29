@@ -6,7 +6,7 @@ gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
 gem 'rails_12factor'
 # Use sqlite3 as the database for Active Record
-gem 'pg'
+gem 'pg', '~> 0.15'
 
 gem "heroku_hatchet"
 gem 'puma-heroku'
