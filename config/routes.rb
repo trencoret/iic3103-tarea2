@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   get 'usuario/:id' => 'usuarios#show'
   post 'usuario/:id' => 'usuarios#update'
-  delete 'usuario/:id' => 'usuarios#delete'
+  delete 'usuario/:id' => 'usuarios#destroy'
   get 'usuario' => 'usuarios#show_all'
   put 'usuario' => 'usuarios#create_new'
   # The priority is based upon order of creation: first created -> highest priority.

@@ -139,7 +139,8 @@ class UsuariosController < ApplicationController
       @usuario.destroy
       respond_to do |format|
         #format.html { redirect_to usuarios_url, notice: 'Usuario was successfully destroyed.' }
-        format.json { head :no_content, status => 204}
+        format.json { render :json => {}.to_json, :status => 204 }
+        # format.json { head :no_content, status => 204}
       end
     end
   end
